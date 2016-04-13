@@ -1,3 +1,24 @@
+.title {
+	background: #7F7E7D;
+	color: #FFFFFF !important;
+}
+
 .logo {
-  float: left;
+  	float: left;
+ 	box-shadow: none !important;
+}
+
+.frontpage {
+	box-shadow: none !important;
+	height: 300px;
+}
+
+.header_bar_front{
+    width:100%;
+    height:100px;
+    color:#ffffff;
+    text-align: left;
+    margin-top:-100px !important;
+    margin-bottom:20px !important;
+    vertical-align:middle;
 }
