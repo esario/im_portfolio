@@ -15,7 +15,7 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: Helvetica, sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #403F3E; }
@@ -35,7 +35,7 @@ body {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
   color: #403F3E;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -132,7 +132,7 @@ body {
   margin: 20px auto;
   text-align: left;
   font-size: 0.55em;
-  font-family: monospace;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2em;
   word-wrap: break-word;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
@@ -267,14 +267,14 @@ body {
  * custom css
  *********************************************/
 
-.header_bar{
-    width:100%;
-    height:100px;
-    color:#ffffff;
+.header_bar {
+    width: 100%;
+    height: 100px;
+    background-color: #7F7E7D;
     text-align: left;
-    margin-top:-60px !important;
-    margin-bottom:50px !important;
-    vertical-align:middle;
+    margin-top: -60px !important;
+    margin-bottom: 50px !important;
+    vertical-align: middle;
 }
 
 .header_title {
@@ -291,7 +291,7 @@ body {
 }
 
 .text-small {
-    font-size:0.8em !important;
+    font-size:0.5em !important;
     color:#555 !important;
     text-align: justify;
     text-justify: inter-word;
@@ -314,58 +314,6 @@ body {
     color: #64B5F6;
 }
 
-.deeppurple{
-    background-color: #673AB7;
-}
-
-.deeppurplefill{
-    fill: #673AB7;
-}
-
-.tealfill{
-    fill: #009688;
-}
-
-.teal {
-    background-color: #009688;
-}
-
-.green {
-    background-color: #4CAF50;
-}
-
-.orange {
-    background-color: #FF9800;
-}
-
-.blue {
-    background-color: #03A9F4;
-}
-
-.bluefill{
-    fill: #03A9F4;
-}
-
-.pink {
-    background-color:#E91E63;
-}
-
-.pinkfill {
-    fill:#E91E63;
-}
-
-.yellow {
-    background-color: #FFD600;
-}
-
-.red{
-    background-color:#F44336;
-}
-
-.grey {
-    background-color:#757575;
-}
-
 .title_container {
     margin-top:75px !important;
 }
@@ -385,7 +333,7 @@ body {
 }
 
 img {
-  border-width:0px !important;
+  border-width: 0.1px !important;
 }
 
 /*.reveal .slides .present {

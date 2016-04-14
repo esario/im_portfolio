@@ -6,11 +6,13 @@
 .logo {
   	float: left;
  	box-shadow: none !important;
+    border: none !important;
 }
 
 .frontpage {
 	box-shadow: none !important;
 	height: 300px;
+    border: none !important;
 }
 
 .header_bar_front {
@@ -24,13 +26,13 @@
 }
 
 .vertical {
-    height: 500px;
+    height: 400px;
     padding: 10px !important;
     border-radius: 20px;
 }
 
 .horizontal {
-    width: 500px;
+    width: 400px;
     padding: 10px !important;
     border-radius: 20px;
 }
