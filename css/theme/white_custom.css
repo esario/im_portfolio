@@ -188,16 +188,19 @@ body {
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
-  transition: color 0.15s ease; }
+  transition: color 0.15s ease; 
+}
 
 .reveal a:hover {
   color: #ff1b2c;
   text-shadow: none;
-  border: none; }
+  border: none; 
+}
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1a54a1; }
+  background: #1a54a1; 
+}
 
 /*********************************************
  * IMAGES
