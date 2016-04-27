@@ -5,7 +5,7 @@
         <title>SIMS | Cookbook</title>
         
         <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-        <meta name="author" content="Simon Johnson">
+        <meta name="author" content="Kat Hicks">
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -47,7 +47,8 @@
 
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
-                <section id="frontcover" data-background="#FFFFFF">
+
+                <section id="frontcover" data-background="#FFFFFF"> <!-- Front Page -->
                     <div class="title_container">
                     	<div class="header_bar_front">
                             <img src="images/sims_logo.png" class="logo">
@@ -64,61 +65,77 @@
                     </div>
                 </section>
 
-                <section id="contents">
+                <section id="contents"> <!-- Contents -->
                     <div class="header_bar">
                         <div class="header_title">Contents</div>
                     </div>
                     <p class="text-small-centre"><strong>Click below to jump to a section</strong></p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/introduction">Introduction</a>
+                        <a class="contents_link" href="#/intro">Introduction</a>
                     </p>
-                    <p class="text-small-centre">
-                        <a class="contents_link" href="#/3W_map">3W Map</a>
-                    </p>                                        
-                    <p class="text-small-centre">
-                        <a class="contents_link" href="#/distribution">Distribution Map</a>
-                    </p>
+
                     <p class="text-small-centre">
                         <a class="contents_link" href="#/basemap">Basemap</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/case_map">Case Map</a>
+                        <a class="contents_link" href="#/cases">Case Map</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/typhoon_track">Typhoon Track Map</a>
+                        <a class="contents_link" href="#/eqshake">Earthquake Shake Map</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/shake_map">Earthquake Shake Map</a>
+                        <a class="contents_link" href="#/typhoon">Typhoon Track Map</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/gap_analysis">Gap Analaysis</a>
+                        <a class="contents_link" href="#/distribution">Distribution Map</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/HIS_dash">Health Information Dashboard</a>
+                        <a class="contents_link" href="#/affected">Population Affected Map</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/indicator_dash">Indicator Dashboard</a>
+                        <a class="contents_link" href="#/whowhat">Who, What, Where Map</a>
                     </p>
+                    
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/secondary_data">Secondary Data Collection</a>
+                        <a class="contents_link" href="#/gaps">Gap Analaysis</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/OSM">OpenStreetMap Data Collection</a>
+                        <a class="contents_link" href="#/his">Health Information Dashboard</a>
                     </p>
+
                     <p class="text-small-centre">
-                        <a class="contents_link" href="#/pop_affected">Population Affected Map</a>
+                        <a class="contents_link" href="#/indicdash">Indicator Dashboard</a>
                     </p>
+
+                    <p class="text-small-centre">
+                        <a class="contents_link" href="#/seconddata">Secondary Data Collection</a>
+                    </p>
+
+                    <p class="text-small-centre">
+                        <a class="contents_link" href="#/hotosm">Crowdsourced Mapping</a>
+                    </p>
+                    
                     <p class="text-small-centre">
                         <a class="contents_link" href="#/additions">Other</a>
-                    </p>  
+                    </p>
 
                 </section>
 
-                <section>
-                    <section id="introduction">
+                <section> <!-- intro -->
+                    <section id="intro">
                         <div class="header_bar">
                             <div class="header_title">Introduction</div>
                         </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
                         <p class="text-small">Press down on your keyboard or swipe down to navigate.</p>
                         <p class="text-small">
                             Last updated: March 2016
@@ -172,23 +189,23 @@
                     </section>
                 </section>
 
-                <section>
-                    <section id="3w_map">
+                <!-- PRODUCT SLIDES START HERE -->
+
+                <section>       <!--Basemap-->
+                    <section id="basemap">
                         <div class="header_bar">
-                            <div class="header_title">3W Map</div>
+                            <div class="header_title">Basemap</div>
                         </div>
-                        <a href="#contents" class="return">Return to contents</a>
+                        <a href="#/contents" class="return">Return to contents</a>
                         <br>
-                        <img src="images/01_201401_philippines_3w.png" class="thumbnail horizontal">
+                        <img src="images/03_kathmandu_basemap.png" class="thumbnail horizontal">
                         <p class="text-small">
-                            The 3W map is particularly useful for coordination and donor awareness. It helps responders 
-                            to see who is doing what in which locations and can inform decisions about where to mobilise additional resources.
+                            Basemaps are really useful for planning and logistics. They can add value in many different situations and printed versions can be drawn on and used for mocking out additional maps.
                         </p>
                         <p class="text-small">
-                            It is most useful in medium to large multilateral responses.
+                            Basemaps are useful in all responses from small to large scale operations in any technical area.
                         </p>
                     </section>
-                    
                     <section>
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
@@ -201,12 +218,90 @@
                     </section>
                 </section>
 
-                <section>
+                <section>       <!--Casemap-->
+                    <section id="cases">
+                        <div class="header_bar">
+                            <div class="header_title">Case Map</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/04_201603_zika_confirmed_cases.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            Case maps are valuable for highlighting areas most in need during epidemic responses. If data is available, multiple maps can also be created to breakdown the geography by confirmed and suspected caseload.
+                        </p>
+                        <p class="text-small">
+                            Case maps are only useful in epidemic disaster responses but can add value at any scale.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Shakemap -->
+                    <section id="eqshake">
+                        <div class="header_bar">
+                            <div class="header_title">Earthquake Shake Map</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/06_nepal_shakemap.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            Shakemaps are useful at the initial stages of earthquake responses to gauge probable impact. They are then often used as a base layer in subsequent maps and can also be combined with epicentre information.
+                        </p>
+                        <p class="text-small">
+                            Shakemaps are only applicable in earthquake responses and are most useful are the beginning of a response.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Typhoon Track Map -->
+                    <section id="typhoon">
+                        <div class="header_bar">
+                            <div class="header_title">Typhoon Track Map</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/05_201503_vanuatu_cyclone_path.png" class="thumbnail vertical">
+                        <p class="text-small">
+                            Typhoon track maps are useful for highlighting the more affected areas in hurricane responses. When combined with population, poverty level and windspeed, they can also be used to create a rough needs index before field assessments can be conducted.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Distribution Map -->
                     <section id="distribution">
                         <div class="header_bar">
                             <div class="header_title">Distribution Map</div>
                         </div>
-                        <a href="#contents" class="return">Return to contents</a>
+                        <a href="#/contents" class="return">Return to contents</a>
                         <br>
                         <img src="images/02_201505_nepal_distributions.png" class="thumbnail vertical">
                         <p class="text-small">
@@ -230,261 +325,12 @@
                     </section>
                 </section>
 
-                <section>
-                    <section id="basemap">
-                        <div class="header_bar">
-                            <div class="header_title">Basemap</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/03_kathmandu_basemap.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            Basemaps are really useful for planning and logistics. They can add value in many different situations and printed versions can be drawn on and used for mocking out additional maps.
-                        </p>
-                        <p class="text-small">
-                            Basemaps are useful in all responses from small to large scale operations in any technical area.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="case_map">
-                        <div class="header_bar">
-                            <div class="header_title">Case Map</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/04_201603_zika_confirmed_cases.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            Case maps are valuable for highlighting areas most in need during epidemic responses. If data is available, multiple maps can also be created to breakdown the geography by confirmed and suspected caseload.
-                        </p>
-                        <p class="text-small">
-                            Case maps are only useful in epidemic disaster responses but can add value at any scale.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="typhoon_track">
-                        <div class="header_bar">
-                            <div class="header_title">Typhoon Track Map</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/05_201503_vanuatu_cyclone_path.png" class="thumbnail vertical">
-                        <p class="text-small">
-                            Typhoon track maps are useful for highlighting the more affected areas in hurricane responses. When combined with population, poverty level and windspeed, they can also be used to create a rough needs index before field assessments can be conducted.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="shake_map">
-                        <div class="header_bar">
-                            <div class="header_title">Earthquake Shake Map</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/06_nepal_shakemap.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            Shakemaps are useful at the initial stages of earthquake responses to gauge probable impact. They are then often used as a base layer in subsequent maps and can also be combined with epicentre information.
-                        </p>
-                        <p class="text-small">
-                            Shakemaps are only applicable in earthquake responses and are most useful are the beginning of a response.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="gap_analysis">
-                        <div class="header_bar">
-                            <div class="header_title">Gap Analaysis</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/07_nepal_gap_analysis.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            Gap analysis is a numerical comparison of overall need against existing response activities. It is extremely useful for highlighting remaining gaps and helping decisions around directing remaining resources.
-                        </p>
-                        <p class="text-small">
-                            Gap analysis is most useful at a granular level but can be helpful in all types of response.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="HIS_dash">
-                        <div class="header_bar">
-                            <div class="header_title">Health Information Dashboard</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/08_nepal_his_dashboard.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            Health information dashboards assist in monitoring and reporting on the activities of field health teams. They also enable inference on population needs based on patient information.
-                        </p>
-                        <p class="text-small">
-                            They are useful in health emergencies at all scales and have worked particularly well for ERUs.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="indicator_dash">
-                        <div class="header_bar">
-                            <div class="header_title">Indicator Dashboard</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/09_indicator_dashboard.png" class="thumbnail vertical">
-                        <p class="text-small">
-                            Indicator dashboards are most useful for coordination and reporting. They enable communication and interrogation of key indicators and encourage consistent data management.
-                        </p>
-                        <p class="text-small">
-                            They are most useful in pan-regional and cross-country responses with added coordination needs.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="secondary_data">
-                        <div class="header_bar">
-                            <div class="header_title">Secondary Data Collection</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/10_liberia_etcs_data.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            Secondary data collection gives value by filling in critical data gaps. It is most appropriate for collecting data on existing points of interest such as health centres, refugee camps or security incidents.
-                        </p>
-                        <p class="text-small">
-                            It can be useful in any type of response but is often most valuable in protracted or silent disasters.
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="OSM">
-                        <div class="header_bar">
-                            <div class="header_title">OpenStreetMap Data Collection</div>
-                        </div>
-                        <a href="#contents" class="return">Return to contents</a>
-                        <br>
-                        <img src="images/11_201312_philippines_osm_tracing.png" class="thumbnail horizontal">
-                        <p class="text-small">
-                            OpenStreetMap Data Collection adds value by filling in the basemap for unmapped areas. It is useful in a many situations but is most valuable in remote or underdeveloped areas that are often poorly mapped.
-                        </p>
-                        <p class="text-small">
-                            It can be useful for any response and all current tasks are available here: <a href="http://tasks.hotosm.org/">http://tasks.hotosm.org/</a>
-                        </p>
-                    </section>
-
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Requirements</div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="header_bar">
-                            <div class="header_title">Prioritisation</div>
-                        </div>
-                    </section>
-                </section>
-
-                <section>
-                    <section id="pop_affected">
+                <section>       <!-- Population Affected Map -->
+                    <section id="affected">
                         <div class="header_bar">
                             <div class="header_title">Population Affected Map</div>
                         </div>
-                        <a href="#contents" class="return">Return to contents</a>
+                        <a href="#/contents" class="return">Return to contents</a>
                         <br>
                         <img src="images/12_nepal_affected_population.png" class="thumbnail vertical">
                         <p class="text-small">
@@ -494,7 +340,6 @@
                             They are most useful in medium to large responses with varying needs over a large geographical area.
                         </p>
                     </section>
-
                     <section>
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
@@ -507,22 +352,186 @@
                     </section>
                 </section>
 
-                <section>
+                <section>       <!-- 3W map -->
+                    <section id="whowhat">
+                        <div class="header_bar">
+                            <div class="header_title">3W Map</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/01_201401_philippines_3w.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            The 3W map is particularly useful for coordination and donor awareness. It helps responders 
+                            to see who is doing what in which locations and can inform decisions about where to mobilise additional resources.
+                        </p>
+                        <p class="text-small">
+                            It is most useful in medium to large multilateral responses.
+                        </p>
+                    </section>
+                    
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Gap Analysis -->
+                    <section id="gaps">
+                        <div class="header_bar">
+                            <div class="header_title">Gap Analaysis</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/07_nepal_gap_analysis.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            Gap analysis is a numerical comparison of overall need against existing response activities. It is extremely useful for highlighting remaining gaps and helping decisions around directing remaining resources.
+                        </p>
+                        <p class="text-small">
+                            Gap analysis is most useful at a granular level but can be helpful in all types of response.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- HIS Dashboard -->
+                    <section id="his">
+                        <div class="header_bar">
+                            <div class="header_title">Health Information Dashboard</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/08_nepal_his_dashboard.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            Health information dashboards assist in monitoring and reporting on the activities of field health teams. They also enable inference on population needs based on patient information.
+                        </p>
+                        <p class="text-small">
+                            They are useful in health emergencies at all scales and have worked particularly well for ERUs.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Indicator Dashboard -->
+                    <section id="indicdash">
+                        <div class="header_bar">
+                            <div class="header_title">Indicator Dashboard</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/09_indicator_dashboard.png" class="thumbnail vertical">
+                        <p class="text-small">
+                            Indicator dashboards are most useful for coordination and reporting. They enable communication and interrogation of key indicators and encourage consistent data management.
+                        </p>
+                        <p class="text-small">
+                            They are most useful in pan-regional and cross-country responses with added coordination needs.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Secondary Data Collection -->
+                    <section id="seconddata">
+                        <div class="header_bar">
+                            <div class="header_title">Secondary Data Collection</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/10_liberia_etcs_data.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            Secondary data collection gives value by filling in critical data gaps. It is most appropriate for collecting data on existing points of interest such as health centres, refugee camps or security incidents.
+                        </p>
+                        <p class="text-small">
+                            It can be useful in any type of response but is often most valuable in protracted or silent disasters.
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Crowdsourced Mapping -->
+                    <section id="hotosm">
+                        <div class="header_bar">
+                            <div class="header_title">OpenStreetMap Data Collection</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <img src="images/11_201312_philippines_osm_tracing.png" class="thumbnail horizontal">
+                        <p class="text-small">
+                            OpenStreetMap Data Collection adds value by filling in the basemap for unmapped areas. It is useful in a many situations but is most valuable in remote or underdeveloped areas that are often poorly mapped.
+                        </p>
+                        <p class="text-small">
+                            It can be useful for any response and all current tasks are available here: <a href="http://tasks.hotosm.org/">http://tasks.hotosm.org/</a>
+                        </p>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Requirements</div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="header_bar">
+                            <div class="header_title">Prioritisation</div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>       <!-- Other -->
                     <section id="additions">
-                    <div class="header_bar">
-                        <div class="header_title">Other</div>
-                    </div>
-                    <a href="#contents" class="return">Return to contents</a>
-                    <br>
-                    <p class="text-small">
-                        SIMS is keen to provide support that is as operationally useful as possible 
-                        meaning common products alone are not usually sufficient for context specific operations.
-                    </p>
-                    <p class="text-small">
-                    It is not possible to list every specific question and bespoke product that has been 
-                    produced for each operation in the past but below contains a selection with brief explanation 
-                    to try and illustrate the breadth of possibility.
-                    </p>
+                        <div class="header_bar">
+                            <div class="header_title">Other</div>
+                        </div>
+                        <a href="#/contents" class="return">Return to contents</a>
+                        <br>
+                        <p class="text-small">
+                            SIMS is keen to provide support that is as operationally useful as possible 
+                            meaning common products alone are not usually sufficient for context specific operations.
+                        </p>
+                        <p class="text-small">
+                        It is not possible to list every specific question and bespoke product that has been 
+                        produced for each operation in the past but below contains a selection with brief explanation 
+                        to try and illustrate the breadth of possibility.
+                        </p>
                     </section>
 
                     <section id="road_distances">
@@ -544,14 +553,15 @@
                             Requested to show status of different country borders which have changed in response to the population movement as well as the main migrant routes into and across Europe.
                         </p>
                     </section>
-                </section>
-                                                                                                  
+                </section>                                                                                             
             </div>
+
         </div>
 
 
         <script src="lib/js/head.min.js"></script>
         <script src="js/reveal.js"></script>
+
         <script>
             // Full list of configuration options available at:
             // https://github.com/hakimel/reveal.js#configuration

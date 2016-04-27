@@ -42,3 +42,7 @@
     font-size: 14px !important;
     margin-top: -30px !important;
 }
+
+.reveal .slides > section {
+display: block !important;
+}
