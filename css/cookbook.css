@@ -44,5 +44,5 @@
 }
 
 .reveal .slides > section {
-display: block !important;
+    display: block !important;
 }
