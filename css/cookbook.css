@@ -36,3 +36,94 @@
     padding: 10px !important;
     border-radius: 20px;
 }
+
+.return {
+    float: right;
+    font-size: 14px !important;
+    margin-top: -30px !important;
+}
+
+.reveal .slides > section {
+    display: block !important;
+}
+
+#ease, #impact {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#ease_one, #ease_two, #ease_three, #ease_four, #ease_five, #ease_six {
+    height: 60px;
+    width: 15%;
+    display: inline-block;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+#ease_one {
+    background-color: #fce3de;
+}
+
+#ease_two {
+    background-color: #f9cec8;
+}
+
+#ease_three {
+    background-color: #f9c5bc;
+}
+
+#ease_four {
+    background-color: #f4a49b;
+}
+
+#ease_five {
+    background-color: #f0817a;
+}
+
+#ease_six {
+    background-color: #eb5a5d;
+}
+
+#impact_one, #impact_two, #impact_three, #impact_four, #impact_five, #impact_six {
+    height: 60px;
+    width: 15%;
+    display: inline-block;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+#impact_one {
+    background-color: #dfd7d7;
+}
+
+#impact_two {
+    background-color: #dbcaca;
+}
+
+#impact_three {
+    background-color: #c2b3b2;
+}
+
+#impact_four {
+    background-color: #a79190;
+}
+
+#impact_five {
+    background-color: #8f7371;
+}
+
+#impact_six {
+    background-color: #775856;
+}
+
+#tick {
+    vertical-align: middle;
+    min-height: 225% !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: -45px auto 0 auto;
+    text-align: center;
+    display: block; 
+    
+}
