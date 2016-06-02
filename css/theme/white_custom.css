@@ -39,9 +39,8 @@ body {
   color: #403F3E;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -52,10 +51,12 @@ body {
   font-size: 1.6em; }
 
 .reveal h3 {
-  font-size: 1.2em; }
+    font-size: 1.2em;
+}
 
 .reveal h4 {
-    font-size: 1em; 
+    font-size: 0.6em; 
+    color: #8c1b2c !important;
     width: 80%;
     margin-left: 10% !important;
 }
@@ -68,7 +69,7 @@ body {
  *********************************************/
 .reveal p {
   margin: 20px 0;
-  line-height: 1; }
+  line-height: 1.5; }
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
