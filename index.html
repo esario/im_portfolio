@@ -11,7 +11,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
         
         <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/white_custom.css" id="theme">
         <link rel="stylesheet" href="css/cookbook.css">
         
         <!-- Code syntax highlighting -->
@@ -126,10 +125,9 @@
                     <p class="text-small-centre">
                         <a class="contents_link" href="#/additions">Other</a>
                     </p>
-
                 </section>
 
-                <section> <!-- intro -->
+                <section> <!-- Intro -->
                     <section id="intro">
                         <div class="header_bar">
                             <div class="header_title">Introduction</div>
@@ -192,7 +190,7 @@
                 <!-- PRODUCT SLIDES START HERE -->
 
                 <section>       <!--Basemap-->
-                    <section id="basemap">
+                    <section id="basemap"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Basemap</div>
                         </div>
@@ -207,7 +205,7 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
@@ -256,7 +254,7 @@
                 </section>
 
                 <section>       <!--Casemap-->
-                    <section id="cases">
+                    <section id="cases"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Case Map</div>
                         </div>
@@ -271,26 +269,35 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Case data: Sourced remotely <br> Often provided by the Ministry of Health or WHO but spatial scale varies. Data from the field can help to supplement.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level administrative data.
-                        </p>
-
-                        Time
-                        <p class="text-small">
-                            Initial production: one day
-                        </p>
-                        <p class="text-small">
-                            Updates: a few hours
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                                <h4>Case data</h4>
+                                <p class="text-small">
+                                    Sourced remotely 
+                                    <br> 
+                                    Often provided by the Ministry of Health or WHO but spatial scale varies. Data from the field can help to supplement.
+                                </p>
+                                <h4>Country boundaries</h4>
+                                <p class="text-small">
+                                    Sourced remotely 
+                                    <br> 
+                                    Usually widely available although sometimes governments will not release lower level administrative data.
+                                </p>
+                        </div>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: one day</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Updates: a few hours</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -313,7 +320,7 @@
                 </section>
 
                 <section>       <!-- Shakemap -->
-                    <section id="eqshake">
+                    <section id="eqshake"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Earthquake Shake Map</div>
                         </div>
@@ -328,23 +335,33 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Earthquake data: Sourced remotely <br> Published for all major earthquakes by the US Geological Survey.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level administrative data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                                <h4>Earthquake data</h4>
+                                <p class="text-small">
+                                     Sourced remotely 
+                                     <br> 
+                                     Published for all major earthquakes by the US Geological Survey.
+                                </p>
+                                <h4>Country boundaries</h4>
+                                <p class="text-small">
+                                     Sourced remotely 
+                                     <br> 
+                                     Usually widely available although sometimes governments will not release lower level administrative data.
+                                </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial production: one day
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: one day</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -367,7 +384,7 @@
                 </section>
 
                 <section>       <!-- Typhoon Track Map -->
-                    <section id="typhoon">
+                    <section id="typhoon"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Typhoon Track Map</div>
                         </div>
@@ -379,23 +396,33 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Typhoon track data: Sourced remotely <br> Available from weather monitoring agencies and university groups.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level administrative data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>Typhoon track data</h4>
+                            <p class="text-small">
+                                 Sourced remotely 
+                                 <br> 
+                                 Available from weather monitoring agencies and university groups.
+                            </p>
+                            <h4>Country boundaries</h4>
+                            <p class="text-small">
+                                 Sourced remotely 
+                                 <br> 
+                                 Usually widely available although sometimes governments will not release lower level administrative data.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial production: one day
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: one day</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -418,7 +445,7 @@
                 </section>
 
                 <section>       <!-- Distribution Map -->
-                    <section id="distribution">
+                    <section id="distribution"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Distribution Map</div>
                         </div>
@@ -434,26 +461,36 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Distributions data: Sourced in the field <br> Focal point for maintaining such data varies between responses.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level administrative data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>Distributions data</h4>
+                            <p class="text-small">
+                                 Sourced in the field 
+                                 <br> 
+                                 Focal point for maintaining such data varies between responses.
+                            </p>
+                            <h4>Country boundaries</h4>
+                            <p class="text-small">
+                                 Sourced remotely 
+                                 <br> 
+                                 Usually widely available although sometimes governments will not release lower level administrative data.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial production: one day
-                        </p>
-                        <p class="text-small">
-                            Updates: a few hours
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: one day</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Updates: a few hours</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -476,7 +513,7 @@
                 </section>
 
                 <section>       <!-- Population Affected Map -->
-                    <section id="affected">
+                    <section id="affected"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Population Affected Map</div>
                         </div>
@@ -491,23 +528,33 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Needs assessment: Sourced in the field <br> Needs assessments are generally conducted by the Government and coordinated by FACT. Combining with population statistics can also be useful.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level administrative data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>Needs assessment</h4>
+                            <p class="text-small">
+                                 Sourced in the field 
+                                 <br> 
+                                 Needs assessments are generally conducted by the Government and coordinated by FACT. Combining with population statistics can also be useful.
+                            </p>
+                            <h4>Country boundaries</h4>
+                            <p class="text-small">
+                                 Sourced remotely 
+                                 <br> 
+                                 Usually widely available although sometimes governments will not release lower level administrative data.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial production: two days
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: two days</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -530,7 +577,7 @@
                 </section>
 
                 <section>       <!-- 3W map -->
-                    <section id="whowhat">
+                    <section id="whowhat"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">3W Map</div>
                         </div>
@@ -546,26 +593,36 @@
                         </p>
                     </section>
                     
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            3W database: Sourced in the field <br> Template for constructing the database can be found in the FACT toolkit under Coordination (D1).
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level administrative data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>3W database</h4>
+                            <p class="text-small">
+                                Sourced in the field 
+                                <br> 
+                                Template for constructing the database can be found in the FACT toolkit under Coordination (D1).
+                            </p>
+                            <h4>Country boundaries</h4>
+                            <p class="text-small">
+                                Sourced remotely 
+                                <br> 
+                                Usually widely available although sometimes governments will not release lower level administrative data.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Map production: two days
-                        </p>
-                        <p class="text-small">
-                            Updates: one day
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Map production: two days</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Updates: one day</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -588,7 +645,7 @@
                 </section>
 
                 <section>       <!-- Gap Analysis -->
-                    <section id="gaps">
+                    <section id="gaps"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Gap Analaysis</div>
                         </div>
@@ -603,26 +660,36 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Needs assessment: Sourced in the field <br> Needs assessments are generally conducted by the Government and coordinated by FACT.
-                        </p>
-                        <p class="text-small">
-                            3W or distribution data: Sourced in the field <br> Depending on the nature of the response, either 3W or distribution data will provide the information for existing response activities.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>Needs assessment</h4>
+                            <p class="text-small">
+                                Sourced in the field 
+                                <br> 
+                                Needs assessments are generally conducted by the Government and coordinated by FACT.
+                            </p>
+                            <h4>3W or distribution data</h4>
+                            <p class="text-small">
+                                Sourced in the field
+                                <br>
+                                Depending on the nature of the response, either 3W or distribution data will provide the information for existing response activities.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Analysis: two days
-                        </p>
-                        <p class="text-small">
-                            Visualisation: one day
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Analysis: two days</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Visualisation: one day</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -645,7 +712,7 @@
                 </section>
 
                 <section>       <!-- HIS Dashboard -->
-                    <section id="his">
+                    <section id="his"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Health Information Dashboard</div>
                         </div>
@@ -660,26 +727,36 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Health data: Sourced in the field <br> Often collected using mobile data collection tools such as MagPi and fed into the dashboard on a regular basis.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>Health data</h4>
+                            <p class="text-small">
+                                Sourced in the field 
+                                <br> 
+                                Often collected using mobile data collection tools such as MagPi and fed into the dashboard on a regular basis.
+                            </p>
+                            <h4>Country boundaries</h4>
+                            <p class="text-small">
+                                Sourced remotely 
+                                <br> 
+                                Usually widely available although sometimes governments will not release lower level data.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial production: two days
-                        </p>
-                        <p class="text-small">
-                            Updates: a few hours
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: two days</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Updates: a few hours</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -702,7 +779,7 @@
                 </section>
 
                 <section>       <!-- Indicator Dashboard -->
-                    <section id="indicdash">
+                    <section id="indicdash"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Indicator Dashboard</div>
                         </div>
@@ -717,26 +794,36 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Indicators: Sourced in the field <br> Response indicators need to be agreed by all parties and updated on a regular basis. Often they address funding levels, activities and situation statistics.
-                        </p>
-                        <p class="text-small">
-                            Country boundaries: Sourced remotely <br> Usually widely available although sometimes governments will not release lower level data.
-                        </p>
+                        <div class="data">
+                            <h3>Data</h3>
+                            <h4>Indicators</h4>
+                            <p class="text-small">
+                                Sourced in the field 
+                                <br> 
+                                Response indicators need to be agreed by all parties and updated on a regular basis. Often they address funding levels, activities and situation statistics.
+                            </p>
+                            <h4>Country boundaries</h4>
+                            <p class="text-small">
+                                Sourced remotely 
+                                <br> 
+                                Usually widely available although sometimes governments will not release lower level data.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial production: two days
-                        </p>
-                        <p class="text-small">
-                            Updates: a few hours
-                        </p>
+                        <div class ="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial production: two days</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Updates: a few hours</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -759,7 +846,7 @@
                 </section>
 
                 <section>       <!-- Secondary Data Collection -->
-                    <section id="seconddata">
+                    <section id="seconddata"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">Secondary Data Collection</div>
                         </div>
@@ -774,26 +861,32 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Question
-                        <p class="text-small">
-                            Sourced in the field <br> Only requirement for secondary data collection is a viable question.
-                        </p>
-                        <p class="text-small">
-                            We have successfully undertaken secondary data collection for the location of refugee camps, the nature and location of security incidents, and the status and operating organisation of Ebola Treatment Centres.
-                        </p>
+                        <div class="data">
+                            <h3>Question</h3>
+                            <h4>Only requirement for secondary data collection is a viable question.</h4>
+                                <p class="text-small">
+                                <br>
+                                Sourced in the field                                 
+                            </p>
+                            <p class="text-small">
+                                We have successfully undertaken secondary data collection for the location of refugee camps, the nature and location of security incidents, and the status and operating organisation of Ebola Treatment Centres.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial research: three days
-                        </p>
-                        <p class="text-small">
-                            Updates: a few hours (frequency varies)
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial research: three days</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Updates: a few hours (frequency varies)</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
@@ -816,7 +909,7 @@
                 </section>
 
                 <section>       <!-- Crowdsourced Mapping -->
-                    <section id="hotosm">
+                    <section id="hotosm"> <!--Main-->
                         <div class="header_bar">
                             <div class="header_title">OpenStreetMap Data Collection</div>
                         </div>
@@ -831,23 +924,30 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section> <!--Requirements-->
                         <div class="header_bar">
                             <div class="header_title">Requirements</div>
                         </div>
 
-                        Data
-                        <p class="text-small">
-                            Area of interest: Sourced in the field <br> Required to set bounding box for the crowdsourced mapping task. Often useful to know data of interest as well, such as mapping only roads or roads and residential areas.
-                        </p>
+                        <div class = "data">
+                            <h3>Data</h3>
+                            <h4>Area of interest</h4>
+                            <p class="text-small">
+                                 Sourced in the field 
+                                 <br> 
+                                 Required to set bounding box for the crowdsourced mapping task. Often useful to know data of interest as well, such as mapping only roads or roads and residential areas.
+                            </p>
+                        </div>
 
-                        Time
-                        <p class="text-small">
-                            Initial setup: a few hours
-                        </p>
-                        <p class="text-small">
-                            Mapping: five days (varies with scale)
-                        </p>
+                        <div class="time">
+                            <h3>Time</h3>
+                            <p class="text-small">
+                                <h4>Initial setup: a few hours</h4>
+                            </p>
+                            <p class="text-small">
+                                <h4>Mapping: five days (varies with scale)</h4>
+                            </p>
+                        </div>
                     </section>
 
                     <section> <!--Prioritisation-->
