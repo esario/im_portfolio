@@ -6,6 +6,10 @@
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
 
+.reveal .slides > section {
+    display: block !important;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
