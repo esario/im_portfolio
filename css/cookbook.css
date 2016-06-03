@@ -382,6 +382,25 @@ img {
     min-height: 125px;
 }
 
+.icon {
+    text-align: left !important;
+    padding: 30px !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 180px !important;
+    vertical-align: middle !important;
+}
+
+.icons span {
+    line-height: 180px;
+    vertical-align: middle !important;
+    padding: 10px;
+}
+
+.icons {
+    float: left;
+}
+
 .frontpage {
 	box-shadow: none !important;
 	height: 300px;
