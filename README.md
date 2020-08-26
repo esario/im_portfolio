@@ -1,5 +1,5 @@
-# SIMS Product Cookbook
+# Information management portfolio
 
-URL: https://kathicks.github.io/sims_cookbook
+URL: 
 
-Quick guide to common products with details of data and time requirements.
+List of different information management products one can order. 
