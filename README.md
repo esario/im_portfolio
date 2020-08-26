@@ -2,4 +2,4 @@
 
 URL: 
 
-List of different information management products one can order. 
+Quick guide to common information management products, data required to produce them and work estimates.
